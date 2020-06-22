@@ -32,11 +32,11 @@ header {
   color: #eee;
   box-shadow: 0 1px 6px rgba(0,0,0,0.7);
   z-index: 1000;
-} 
+}
 
 header .container{
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -48,7 +48,7 @@ header .container{
   display: block;
   float: left;
   font-weight: 400;
-  
+
 }
 .header-right a:hover {
   color : #fbd46d;
@@ -89,8 +89,6 @@ header .container{
   transition: 0.8s;
 }
 
-
-
 .btn-wrapper {
   text-align: center;
   margin: 20px 0;
@@ -121,9 +119,11 @@ header .container{
 
 .main-wrapper {
   margin-top: 100px;
+  margin-bottom: 80px;
   background-color: #fcfcfc;
   text-align: center;
-  padding: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .main-caption {
@@ -133,31 +133,115 @@ header .container{
   margin-bottom: 40px;
 }
 
-.heading h2 {
-  font-weight: normal;
+.main-caption h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 800;
 }
-
-.main-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.main-caption p {
+  font-size: 16px;
 }
 
 .main {
-  width: 250px;
+  display: flex;
+  float: left;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 25%;
+}
+.main-box {
+  width: 95%;
+  margin: auto;
+  padding: 20px 5px;
   height: 250px;
   background-color: #87dfd6;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  padding: 30px;
-  color: #26776f;
-  margin-right: 30px;
-  transition: 0.8s;
-  cursor: pointer;
+}
+.main-box1 {
+  width: 100%;
+  margin: auto;
+  padding: 20px 5px;
+  height: 250px;
+  background-color: #87dfd6;
 }
 
 .main:hover {
   transform: scale(1.1,1.1);
 }
 
+footer {
+  width: 100%;
+  background-color: #111;
+  color: #eee;
+}
+
+footer .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footbar {
+  width: 100%;
+  overflow: none;
+}
+
+.footbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footbar a:hover {
+  color: #87dfd6;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container-form {
+  margin: 30px auto;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 24.99999%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
