@@ -1,0 +1,51 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .main {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper-right {
+    float: left;
+    display: block;
+  }
+  .top-wrapper-left {
+    float: left;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .main {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .footbar a {
+    float: none;
+    display: block;
+  }
+  .main-menu {
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
